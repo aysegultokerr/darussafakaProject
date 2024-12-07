@@ -13,19 +13,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={myBanner} className="Banner" alt="Banner" />
-        <a
-          href="https://www.darussafaka.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            style={{ marginTop: -8 }}
-            src={myButton}
-            className="Banner"
-            alt="BUTTON"
-          />
-        </a>
+        <div style={{ height: 822 }}>
+          <img src={myBanner} className="Banner" alt="Banner" />
+          <a
+            href="https://www.darussafaka.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              style={{ marginTop: -8 }}
+              src={myButton}
+              className="Banner"
+              alt="BUTTON"
+            />
+          </a>
+        </div>
         <div className="bagisAdımı">
           <a href="https://www.darussafaka.org/yol-arkadasim-duzenli-bagis">
             <FontAwesomeIcon icon={faHeart} />
