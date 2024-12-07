@@ -29,14 +29,26 @@ function App() {
           </a>
         </div>
         <div className="bagisAdımı">
-          <a href="https://www.darussafaka.org/yol-arkadasim-duzenli-bagis">
+          <a
+            href="https://www.darussafaka.org/yol-arkadasim-duzenli-bagis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faHeart} />
             <span>Regular Monthly Donation </span>
           </a>
-          <a href="https://www.darussafaka.org/bagislariniz/bagis-kanallari#5e15981b1e76d61bbbcc90f1">
+          <a
+            href="https://www.darussafaka.org/bagislariniz/bagis-kanallari#5e15981b1e76d61bbbcc90f1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faCreditCard} /> <span>Account Numbers</span>
           </a>
-          <a href="https://www.darussafaka.org/bagis?c=ozel-gun-bagislari">
+          <a
+            href="https://www.darussafaka.org/bagis?c=ozel-gun-bagislari"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faInfo} />
             <span>Special Day Donations </span>
           </a>
