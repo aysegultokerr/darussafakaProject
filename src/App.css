@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ece5ce;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: block;
+}
+
+img {
+  max-width: 1366px; /* Resim genişliği konteyneri geçmesin */
+  height: auto;
+  object-fit: cover;
+  box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.3),
+    -10px 0px 15px rgba(0, 0, 0, 0.3), 0px 10px 15px rgba(0, 0, 0, 0.3),
+    0px -10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.bagisAdımı {
+  display: flex !important;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1366px;
+  align-items: center;
+}
+
+.bagisAdımı a {
+  border: 10px solid #c03926;
+  background-color: #c03926;
+  height: 350px;
+  width: 350px;
+  margin-top: 35px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.3),
+    -10px 0px 15px rgba(0, 0, 0, 0.3), 0px 10px 15px rgba(0, 0, 0, 0.3),
+    0px -10px 15px rgba(0, 0, 0, 0.3);
+  color: #fff !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.bagisAdımı a svg {
+  margin-top: 90px;
+}
+
+.bagisAdımı a span {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  margin-top: 20px;
+}
